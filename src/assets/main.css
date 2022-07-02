@@ -1,0 +1,233 @@
+#FullScreenNav {
+    position: relative;
+  
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+  }
+  @media only screen and (min-width: 1200px) {
+    #FullScreenNav {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #FullScreenNav {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #FullScreenNav {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    #FullScreenNav {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 574px) {
+    #FullScreenNav {
+      font-size: 12px;
+    }
+  }
+  .menu-sidebar {
+    width: 280px;
+    height: auto;
+    margin: 0 0 0 0;
+    display: flex;
+    padding: 2rem;
+    justify-content: flex-start;
+  }
+  @media only screen and (min-width: 768px) {
+    #FullScreenLeftLimitNav {
+      display: inline-block;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    #FullScreenLeftLimitNav {
+      display: block;
+    }
+  }
+  
+  .FullScreenLeftinLimitSettingMenu {
+    list-style: none;
+    padding: 15px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    #FullScreenLeftLimitNav {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #FullScreenLeftLimitNav {
+      font-size: 13px;
+      position: relative;
+      right: 300px;
+      width: calc(50% - 250px);
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #FullScreenLeftLimitNav {
+      font-size: 12px;
+      position: relative;
+      right: 300px;
+      width: calc(50% - 200px);
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    #FullScreenLeftLimitNav {
+      font-size: 12px;
+      position: relative;
+      left: 10px;
+      width: calc(50% - 100px);
+    }
+  }
+  @media only screen and (max-width: 574px) {
+    #FullScreenLeftLimitNav {
+      font-size: 12px;
+      position: relative;
+      left: 10px;
+      width: calc(50% - 100px);
+    }
+  }
+  #FullScreenRightLimitNav {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+  }
+  @media only screen and (min-width: 768px) {
+    #FullScreenRightLimitNav {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    #FullScreenRightLimitNav {
+      width: 100%;
+    }
+  }
+  #SneakerOneItem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #646464;
+    display: inline;
+  }
+
+  .SneakerOneItemSettings {
+    list-style: none;
+    display: grid;
+    padding: 15px;
+  }
+
+  .content-container {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .items {
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+   font-size: 18px;
+  }
+  .item{
+    padding: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .items-list {
+    margin: 15px 15px 1px -10px;
+    position: relative;    
+  }
+  .item:hover{
+    color: #DF7861;
+    transition: all 1s;
+  }
+  
+  
+  @media only screen and (min-width: 1200px) {
+    .items-list {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .items-list {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .items-list {
+      display: none;
+    }
+  }
+  .MenuItemsShoes {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+  
+  
+.MenShoesSneaker {
+  list-style: none;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.TransformImage:hover{
+  transform:scale(1.1);
+}
+
+ 
+@media only screen and (min-width: 1200px) {
+  .MenuItemsShoes {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .MenuItemsShoes {
+    position: relative;
+    left: 150px;
+    width: calc(50% - 150px)
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MenuItemsShoes {
+    position: relative;
+    left: 180px;
+   
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .MenuItemsShoes {
+    position: relative;
+    left: 150px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+}
+@media only screen and (max-width: 574px) {
+  .MenuItemsShoes {
+    position: relative;
+    left: 150px;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }}

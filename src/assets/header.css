@@ -1,0 +1,263 @@
+
+#HeaderContent {
+    position: fixed;
+    display: block;
+    z-index: 99;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+  }
+  #HeaderMessageContent {
+    position: fixed;
+    display: block;
+    z-index: 99;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+  }
+  #BannerContent {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+  }
+  .HeaderMessageBanner {
+    position: relative;
+    left: 400px;
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .HeaderMessageBanner:hover{
+    color: #DF7861;
+    transition: all 1s;
+  }
+  @media only screen and (min-width: 1200px) {
+    #BannerContent {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #BannerContent {
+      position: relative;
+      font-size: 13px;
+      right: 200px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #BannerContent {
+      font-size: 12px;
+      position: relative;
+      right: 250px;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    #BannerContent {
+      font-size: 12px;
+      position: relative;
+      right: 300px;
+    }
+  }
+  @media only screen and (max-width: 574px) {
+    #BannerContent {
+      font-size: 12px;
+      position: relative;
+      right: 350px;
+    }
+  }
+  #HeaderMenuContent {
+    display: inline-block;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+ 
+    
+  
+  .HeaderMenuNavSettings{
+    color: #000;
+    cursor: pointer;
+  }
+  .HeaderMenuNavSettings:hover{
+    color: #DF7861;
+  transition:all 1s;
+
+  }
+  #tyimagesetting {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    cursor: pointer;
+  }
+  #inputsetting {
+    width: 50%;
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+    border: solid 1px #94B49F;
+    font-size: 15px;
+  }
+  #inputsetting:hover{
+    border-color: #ECB390;
+  }
+  input:focus {
+    background-color:#F0EBE3;
+  
+  
+  }
+  #HeaderMenuContentSetting {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+  }
+  .HeaderMenuSettings {
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .HeaderMenuSettings:hover{
+    color: #DF7861;
+    transition: all 1s;
+  }
+  @media only screen and (min-width: 1200px) {
+    #HeaderMenuContent {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #HeaderMenuContent {
+      width: 1100px;
+      min-width: 750px;
+      height: auto;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #HeaderMenuContent {
+      font-size: 12px;
+      width: 1000px;
+      min-width: 750px;
+      height: auto;
+      position: relative;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #inputsetting {
+      width: 300px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    #HeaderMenuContent {
+      width: 300px;
+      font-size: 12px;
+      position: relative;
+    }
+  }
+  @media only screen and (min-width: 574px) and (max-width: 767px) {
+    #tyimagesetting {
+      position: relative;
+      left: 10px;
+    }
+  }
+  @media only screen and (min-width: 574px) and (max-width: 767px) {
+    #inputsetting {
+      width: 165px;
+    }
+  }
+  
+  @media only screen and (max-width: 574px) {
+    #HeaderMenuContent {
+      width: 300px;
+      font-size: 12px;
+      position: relative;
+    }
+  }
+  @media only screen and (max-width: 574px) {
+    #inputsetting {
+      width: 75px;
+    }
+  }
+  @media only screen and (max-width: 574px) {
+    #tyimagesetting {
+      position: relative;
+      left: 5px;
+    }
+  }
+  #HeaderNavContent {
+    width: 100%;
+  
+    min-width: 100%;
+    max-width: 100%;
+    height: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    right: 50px;
+    bottom: 35px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: middle;
+  }
+  #HeaderMenuNavSetting {
+    list-style: none;
+    display: inline-block;
+  }
+  .HeaderMenuNavSettings {
+    float: left;
+    padding: 15px;
+  }
+  @media only screen and (min-width: 1200px) {
+    #HeaderMenuNavSetting {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #HeaderMenuNavSetting {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #HeaderMenuNavSetting {
+      font-size: 12px;
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    #HeaderMenuNavSetting {
+      font-size: 12px;
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 574px) {
+    #HeaderMenuNavSetting {
+      font-size: 12px;
+      display: none;
+    }
+  }
