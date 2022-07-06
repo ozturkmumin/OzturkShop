@@ -46,7 +46,7 @@
     cursor: pointer;
   }
   .HeaderMessageBanner:hover{
-    color: #DF7861;
+    color: #E9DAC1;
     transition: all 1s;
   }
   @media only screen and (min-width: 1200px) {
@@ -100,8 +100,9 @@
     cursor: pointer;
   }
   .HeaderMenuNavSettings:hover{
-    color: #DF7861;
-  transition:all 1s;
+    color: #18978F;
+    transform: skewY(5deg);
+    transition:all 0.5s;
 
   }
   #tyimagesetting {
@@ -140,7 +141,7 @@
     cursor: pointer;
   }
   .HeaderMenuSettings:hover{
-    color: #DF7861;
+    color: #E9DAC1;
     transition: all 1s;
   }
   @media only screen and (min-width: 1200px) {
