@@ -1,0 +1,24 @@
+.AR3DMODELDESIGN{
+    width: 25%;
+    height: 30%;
+    display:flex;
+    flex-direction: column-reverse;
+    margin-left: 150px;
+}
+.AR3DMODELDESIGN-Setting{
+    width: 100%;
+    height: 30%;
+    display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+}
+.Position-Image{
+    display: inline-block;
+    width: 100%;
+}
+.ARMODELPRICE{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        
+}

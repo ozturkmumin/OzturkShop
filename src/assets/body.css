@@ -13,6 +13,7 @@ html {
     direction: ltr;
     overflow-x: hidden;
     overflow-y: scroll;
+    
   }
   body {
     width: 100%;
@@ -20,9 +21,7 @@ html {
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #fff;
-    font-family: "Times New Roman", Times, serif;
-    color: #646464;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.5;
     font-style: normal;
     font-variant: normal;
@@ -72,7 +71,7 @@ html {
     left: 0;
     border: none;
     outline: none;
-    background-color: #fff;
+   
   }
   a {
     text-decoration: none;

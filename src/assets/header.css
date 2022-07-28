@@ -13,7 +13,7 @@
     left: 0;
     border: none;
     outline: none;
-    background-color: #fff;
+    
     text-align: center;
   }
   #HeaderMessageContent {
@@ -30,7 +30,7 @@
     left: 0;
     border: none;
     outline: none;
-    background-color: #fff;
+   
     text-align: center;
   }
   #BannerContent {
@@ -82,7 +82,7 @@
       right: 350px;
     }
   }
-  #HeaderMenuContent {
+  .HeaderMenuContent {
     display: inline-block;
     width: 100%;
     min-width: 100%;
@@ -91,6 +91,7 @@
     margin: auto;
     justify-content: center;
     text-align: center;
+    background-color: rgba(56, 54, 54, 0.26);
   }
  
     
@@ -223,7 +224,7 @@
     bottom: 35px;
     border: none;
     outline: none;
-    background-color: #fff;
+    
     vertical-align: middle;
   }
   #HeaderMenuNavSetting {

@@ -86,7 +86,7 @@
           <span class="menu"> <span class="hamburger"></span> </span>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="/#/Chair">Chair</a></li>
+            <li><a href="#/chair">Chair</a></li>
             <li><a href="#">Bedroom</a></li>
           </ul>
         </label>
@@ -99,174 +99,18 @@
       <a href="" class="Home-Main-Link"><div>Home</div></a>
       <a href="" class="Home-Main-About"><div>About</div></a>
     </div>
-    <img
-      class="HarmonyChair-Class"
-      src="/HomePicture/HarmonyChair.png"
-      alt="
-seat"
-    />
-    <div class="Exclusive-Products"><h3>Exclusive Products</h3></div>
-    <div class="Special-products">
-      <h2>SPECIAL PRODUCTS</h2>
-    </div>
-    <div class="special-border"></div>
-    <div class="item-container">
+    <div class="Position-Image">
       <div>
+        <div class="AR3DMODELDESIGN-Setting">
+          <div><b>AR 3D MODEL CHAIR 3</b></div>
+        </div>
         <img
-          class="product-box"
+          class="AR3DMODELDESIGN"
           src="/HomePicture/AR3DMODELCHAIR.jpg"
-          alt="seat"
-        />
-        <font-awesome-icon icon="fa-solid fa-star" />
-      </div>
-
-      <div>
-        <img
-          class="product-box"
-          src="/HomePicture/AR3DMODELCHAIR2.png"
           alt=""
         />
       </div>
-      <div>
-        <img
-          class="product-box"
-          src="/HomePicture/AR3DMODELCHAIR4.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <img class="product-box" src="/HomePicture/AR3MODELCHAIR.jpg" alt="" />
-      </div>
-    </div>
-    <div class="star-photos">
-      <div class="FirstRaitingPosition">
-        <ul class="rate-area">
-          <input type="radio" id="5-star" name="rating" value="5" /><label
-            for="5-star"
-            title="Amazing"
-            >5 stars</label
-          >
-          <input type="radio" id="4-star" name="rating" value="4" /><label
-            for="4-star"
-            title="Good"
-            >4 stars</label
-          >
-          <input type="radio" id="3-star" name="rating" value="3" /><label
-            for="3-star"
-            title="Average"
-            >3 stars</label
-          >
-          <input type="radio" id="2-star" name="rating" value="2" /><label
-            for="2-star"
-            title="Not Good"
-            >2 stars</label
-          >
-          <input type="radio" id="1-star" name="rating" value="1" /><label
-            for="1-star"
-            title="Bad"
-            >1 star</label
-          >
-        </ul>
-      </div>
-      <div>
-        <ul class="rate-area">
-          <input type="radio" id="5-star" name="rating" value="5" /><label
-            for="5-star"
-            title="Amazing"
-            >5 stars</label
-          >
-          <input type="radio" id="4-star" name="rating" value="4" /><label
-            for="4-star"
-            title="Good"
-            >4 stars</label
-          >
-          <input type="radio" id="3-star" name="rating" value="3" /><label
-            for="3-star"
-            title="Average"
-            >3 stars</label
-          >
-          <input type="radio" id="2-star" name="rating" value="2" /><label
-            for="2-star"
-            title="Not Good"
-            >2 stars</label
-          >
-          <input type="radio" id="1-star" name="rating" value="1" /><label
-            for="1-star"
-            title="Bad"
-            >1 star</label
-          >
-        </ul>
-      </div>
-      <div>
-        <ul class="rate-area">
-          <input type="radio" id="5-star" name="rating" value="5" /><label
-            for="5-star"
-            title="Amazing"
-            >5 stars</label
-          >
-          <input type="radio" id="4-star" name="rating" value="4" /><label
-            for="4-star"
-            title="Good"
-            >4 stars</label
-          >
-          <input type="radio" id="3-star" name="rating" value="3" /><label
-            for="3-star"
-            title="Average"
-            >3 stars</label
-          >
-          <input type="radio" id="2-star" name="rating" value="2" /><label
-            for="2-star"
-            title="Not Good"
-            >2 stars</label
-          >
-          <input type="radio" id="1-star" name="rating" value="1" /><label
-            for="1-star"
-            title="Bad"
-            >1 star</label
-          >
-        </ul>
-      </div>
-      <div>
-        <ul class="rate-area">
-          <input type="radio" id="5-star" name="rating" value="5" /><label
-            for="5-star"
-            title="Amazing"
-            >5 stars</label
-          >
-          <input type="radio" id="4-star" name="rating" value="4" /><label
-            for="4-star"
-            title="Good"
-            >4 stars</label
-          >
-          <input type="radio" id="3-star" name="rating" value="3" /><label
-            for="3-star"
-            title="Average"
-            >3 stars</label
-          >
-          <input type="radio" id="2-star" name="rating" value="2" /><label
-            for="2-star"
-            title="Not Good"
-            >2 stars</label
-          >
-          <input type="radio" id="1-star" name="rating" value="1" /><label
-            for="1-star"
-            title="Bad"
-            >1 star</label
-          >
-        </ul>
-      </div>
-    </div>
-    <div class="photos-text">
-      <div class="AR3MODELFIRST">AR 3D model chair1</div>
-      <div class="AR3MODELSECOND">AR 3D model chair2</div>
-      <div class="AR3MODELTHIRTH">AR 3D model chair3</div>
-      <div class="AR3MODELFOURTH">AR 3D model chair4</div>
-    </div>
-    <div class="price-text">
-      <div class="PriceFirst"><b>49$</b></div>
-      <div><b>79$</b></div>
-      <div><b>69$</b></div>
-      <div><b>99$</b></div>
+      <div class="ARMODELPRICE"><b>250$</b></div>
     </div>
   </main>
   <footer>
@@ -280,6 +124,7 @@ seat"
 @import "../HomeSetting/Home-Banner.css";
 @import "../HomeSetting/Home-Main.css";
 @import "../HomeSetting/Home-Footer.css";
+@import "../ChairSetting/Chair-Main.css";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
 </style>

@@ -6,12 +6,12 @@ const routes = [
     component: () => import("@/views/Home.vue"),
   },
   {
-    path: "/shoes",
-    component: () => import("@/views/Shoes.vue"),
+    path: "/chair",
+    component: () => import("@/views/Chair.vue"),
   },
   {
-    path: "/women",
-    component: () => import("@/views/Women.vue"),
+    path: "/Bedroom",
+    component: () => import("@/views/Bedroom.vue"),
   },
   {
     path: "/men",

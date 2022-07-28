@@ -1,0 +1,58 @@
+.BannerContentSetting{
+   
+    background-color: #2e2e2e;
+    width: 100%;
+    height:125px;
+    max-width: 100%;
+    display: inline-block;
+}
+.BannerContentItems{
+    display: inline-block;
+    margin: 10px;
+    color:  #F0EBE3;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    right: 350px;
+ 
+}
+.BannerContentItems:hover{
+    border-bottom: 1px solid #000;
+    transition: all 0.5s ease-in-out;
+    transform: scaleY(1);
+   cursor: pointer;
+   color: #576F72;
+    
+} 
+
+
+.HeroSettings{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    z-index: 1;
+}
+.HomeContentIcon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 500px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .HomeContentDescription{
+    font-family: 'Dancing Script', cursive;
+    color: #000;
+    font-size: 22px;
+    display: inline-block;
+    position: relative;
+    right: 515px;
+    bottom: 15px;
+  }
+  .BorderBottom{
+      border-bottom: 1px solid #000;
+      
+  }

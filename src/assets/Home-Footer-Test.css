@@ -1,0 +1,9 @@
+.FooterSetting{
+    border: 2px solid black;
+    height: 20px;
+    max-height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+   display: grid;
+}
