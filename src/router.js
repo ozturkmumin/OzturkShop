@@ -9,10 +9,10 @@ const routes = [
     path: "/chair",
     component: () => import("@/views/Chair.vue"),
   },
-  {
-    path: "/Bedroom",
-    component: () => import("@/views/Bedroom.vue"),
-  },
+  // {
+  //   path: "/Bedroom",
+  //   component: () => import("@/views/Bedroom.vue"),
+  // },
   {
     path: "/men",
     component: () => import("@/views/Men.vue"),

@@ -214,7 +214,7 @@ transition: 0.5s all;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1fr;
       grid-column-gap: 0px;
-      grid-row-gap: 0px;
+      grid-row-gap: 1rem;
 
 }
 @media only screen and (min-width: 1200px) {
@@ -255,6 +255,14 @@ transition: 0.5s all;
         grid-column-gap: 0px;
         grid-row-gap: 60px;
     }}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 
 .product-box{
     width: 255px;
